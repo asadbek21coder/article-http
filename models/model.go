@@ -25,6 +25,10 @@ type Author struct {
 	Articles []Article
 }
 
+type DeleteUserRequest struct {
+	ID int
+}
+
 var People []Person
 var Articles []Article
 // var Authors []Author

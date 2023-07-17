@@ -14,6 +14,12 @@ func HandleArticle(w http.ResponseWriter, r *http.Request) {
 		deleteArticle(w, r)
 
 	}
+
+	// if r.Method == http.MethodPost {
+
+	// } else if r.Method == http.MethodGet {
+
+	// }
 }
 
 func createArticle(w http.ResponseWriter, r *http.Request) {
