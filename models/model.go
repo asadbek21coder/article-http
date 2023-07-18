@@ -5,8 +5,15 @@ import "time"
 type Article struct {
 	ID        int
 	Content   Content
+	AuthorId  int
+	CreatedAt time.Time
+}
+
+type ArticleGetAll struct {
+	ID        int
+	Content   Content
 	Author    Person
-	CreatedAt *time.Time
+	CreatedAt time.Time
 }
 
 type Content struct {
@@ -31,4 +38,6 @@ type DeleteUserRequest struct {
 
 var People []Person
 var Articles []Article
+var ArticlesGetAll []ArticleGetAll
+
 // var Authors []Author
