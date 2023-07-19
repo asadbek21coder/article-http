@@ -1,12 +1,1 @@
-[
-    {
-        "ID":1,
-        "Content":{
-            "Title":"Database bi;an ishlash",
-            "Body":"Lorem ipsum dolor sit amet aoisf aoia aspfoiasf aifsh"
-            },
-        "AuthorId":3,
-        "CreatedAt":"2023-07-18T10:10:50.488031701+05:00"
-    },
-            
-            {"ID":5,"Content":{"Title":"2-title","Body":"a- article content"},"AuthorId":4,"CreatedAt":"2023-07-18T10:13:18.752073805+05:00"},{"ID":6,"Content":{"Title":"title","Body":"article content"},"AuthorId":4,"CreatedAt":"2023-07-18T10:48:33.741750633+05:00"},{"ID":7,"Content":{"Title":"title","Body":"article content"},"AuthorId":4,"CreatedAt":"2023-07-18T10:57:20.347118389+05:00"},{"ID":8,"Content":{"Title":"title","Body":"article content"},"AuthorId":4,"CreatedAt":"2023-07-18T11:00:56.801050041+05:00"},{"ID":9,"Content":{"Title":"title name","Body":"body name something"},"AuthorId":3,"CreatedAt":"2023-07-18T11:09:38.030686634+05:00"},{"ID":10,"Content":{"Title":"welcome to America","Body":"fbsdhbhfvsvgder"},"AuthorId":1,"CreatedAt":"2023-07-18T11:12:32.347792061+05:00"},{"ID":11,"Content":{"Title":"John William","Body":"Senior Developer"},"AuthorId":4,"CreatedAt":"2023-07-18T11:13:18.471269141+05:00"},{"ID":12,"Content":{"Title":"title name","Body":"body name something"},"AuthorId":3,"CreatedAt":"2023-07-18T11:13:21.731988384+05:00"},{"ID":13,"Content":{"Title":"welcome to America","Body":"fbsdhbhfvsvgder"},"AuthorId":3,"CreatedAt":"2023-07-18T11:18:43.54874493+05:00"}]
+[{"ID":0,"Content":{"Title":"title name","Body":"body name"},"AuthorId":0,"CreatedAt":"0001-01-01T00:00:00Z"},{"ID":1,"Content":{"Title":"Bolgesel kalkinma","Body":"Bolgesel kalkinma iktisadiy kanunlarin gereyi, yerlestirme falan filan"},"AuthorId":2,"CreatedAt":"2023-07-19T10:54:55.380647575+05:00"},{"ID":2,"Content":{"Title":"Idea kemadi!","Body":"Nima yozishni bilmadm"},"AuthorId":5,"CreatedAt":"2023-07-19T11:00:48.996478535+05:00"},{"ID":3,"Content":{"Title":"my first Title","Body":"Welcome to golang"},"AuthorId":11,"CreatedAt":"2023-07-19T11:01:38.777956321+05:00"},{"ID":4,"Content":{"Title":"JUST DO IT !","Body":"Buni qil"},"AuthorId":0,"CreatedAt":"2023-07-19T11:01:50.1318925+05:00"},{"ID":5,"Content":{"Title":"Go","Body":"Golang"},"AuthorId":5,"CreatedAt":"2023-07-19T11:02:01.976383074+05:00"},{"ID":6,"Content":{"Title":"0123456789","Body":"Raqamlar"},"AuthorId":5,"CreatedAt":"2023-07-19T11:02:35.827619028+05:00"},{"ID":7,"Content":{"Title":"JUST DO IT !","Body":"Buni qil"},"AuthorId":9,"CreatedAt":"2023-07-19T11:03:18.008095088+05:00"},{"ID":8,"Content":{"Title":"ban programlamayı bile bilmiyorum","Body":"ban Türkçede anlamlı bir kelime bile bilmiyorum."},"AuthorId":12,"CreatedAt":"2023-07-19T11:05:58.077724331+05:00"}]

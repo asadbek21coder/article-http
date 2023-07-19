@@ -88,6 +88,31 @@ func getArticles(w http.ResponseWriter, r *http.Request) {
 }
 
 func updateArticle(w http.ResponseWriter, r *http.Request) {
+	var newArticle models.Article
+	json.NewDecoder(r.Body).Decode(&newArticle)
+
+	read, _ := os.ReadFile("db/article.json")
+
+	var articles []models.Article
+	json.Unmarshal(read, &articles)
+
+	index := -1
+	for i := 0; i < len(articles); i++ {
+		if articles[i].ID == newArticle.ID {
+			index = i
+		}
+	}
+
+	articles = append(articles[:index], articles[index+1:]...)
+	newArticle.CreatedAt = time.Now()
+	articles = append(articles, newArticle)
+	jsonArticles, _ := json.Marshal(articles)
+
+	os.WriteFile("db/article.json", jsonArticles, 0)
+
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(http.StatusOK)
+	json.NewEncoder(w).Encode(newArticle)
 
 }
 

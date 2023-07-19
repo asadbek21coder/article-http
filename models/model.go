@@ -27,10 +27,25 @@ type Person struct {
 	LastName  string
 }
 
+// type GetPersonExtended struct {
+// 	ID        int
+// 	FirstName string
+// 	LastName  string
+// 	Articles  []Article
+// }
+
 type Author struct {
 	Person   Person
-	Articles []Article
+	Articles []ArticleSmall
 }
+
+type ArticleSmall struct {
+	ID    int
+	Title string
+	// 
+}
+
+// "/author" [GET] method
 
 type DeleteUserRequest struct {
 	ID int
@@ -40,4 +55,4 @@ var People []Person
 var Articles []Article
 var ArticlesGetAll []ArticleGetAll
 
-// var Authors []Author
+var Authors []Author
